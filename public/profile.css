@@ -143,3 +143,56 @@
  .profile-hero .micro-organism:nth-child(3) svg,.profile-hero .micro-organism:nth-child(4) svg{width:30px;height:26px}
  .profile-hero .habitat-caption{bottom:12px}
 }
+
+/* Reading sizes shared by the profile and research sections. */
+:root{--reading-body:17px;--reading-secondary:14px;--reading-caption:12px}
+body{font-size:var(--reading-body)}
+.intro-copy p,.research-intro>p,.project-detail p,.about-copy p{font-size:var(--reading-body);line-height:1.85}
+.intro-copy p{margin-bottom:20px}
+.intro-copy p:last-child{margin-bottom:0}
+.profile-role,.profile-affiliation{font-size:var(--reading-secondary);line-height:1.75;overflow-wrap:anywhere}
+.profile-email,.profile-links{font-size:13px}
+.profile-interests>span{font-size:12px;line-height:1.5}
+.profile-card-heading h2{font-size:29px}
+.card-note{font-size:10px}
+.credentials-card h2{font-size:22px}
+.education-body h3{font-size:18px;line-height:1.6}
+.education-school,.education-degree,.honors-list li p{font-size:15px;line-height:1.8}
+.education-date,.education-extra,.honor-context,.honor-year{font-size:13px;line-height:1.8}
+.education-body,.honors-list li{overflow-wrap:anywhere}
+.publications-card h2{font-size:24px}
+.publication-authors,.publication-meta{font-size:var(--reading-secondary);line-height:1.8}
+.publication-body h3{font-size:17px;line-height:1.8}
+.publication-volume,.publication-note{font-size:13px}
+.publication-status,.publication-number,.publication-doi{font-size:var(--reading-caption)}
+.publication-body{min-width:0}
+.section-kicker,.project-category,.project-status{font-size:11px;line-height:1.65}
+.project-main h3{font-size:clamp(20px,1.8vw,26px);line-height:1.5}
+.project-main p{font-size:var(--reading-secondary);line-height:1.75}
+.study-detail .study-block h4{font-size:15px;line-height:1.7;margin-bottom:10px}
+.detail-foot,.study-figure figcaption,.study-figure-hint{font-size:var(--reading-caption);line-height:1.8}
+nav a{font-size:14px}
+.language-toggle,.motion-toggle{font-size:13px}
+.site-footer,.site-footer>a:first-child,.site-footer>a:first-child span{font-size:12px;line-height:1.8}
+@media(min-width:1700px){:root{--reading-body:18px}}
+@media(max-width:1100px){:root{--reading-body:16px}}
+@media(max-width:700px){
+ .profile-card-heading h2{font-size:26px}
+ .credentials-card h2{font-size:20px}
+ .education-body h3{font-size:16px}
+ .education-school,.education-degree,.honors-list li p{font-size:14px}
+ .education-date,.education-extra,.honor-context,.honor-year{font-size:12px}
+ .profile-role,.profile-affiliation{font-size:12px}
+ .profile-email{font-size:11px}
+ .profile-links{font-size:13px}
+ .profile-interests>span{font-size:11px}
+ .publications-card h2{font-size:23px}
+ .publication-body h3{font-size:16px}
+ .publication-meta,.publication-volume,.publication-note{font-size:13px}
+ .research-intro h2{font-size:36px}
+ .section-kicker,.project-category{font-size:10px}
+ .project-main h3{font-size:20px}
+ .project-detail{padding:0 0 28px;max-width:none}
+ nav a,.language-toggle,.motion-toggle{font-size:12px}
+ .site-footer>span{font-size:11px}
+}
