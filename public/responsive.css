@@ -1,0 +1,6 @@
+/* Keep both the headwaters and the lake visible in the narrow composition. */
+@media (max-width:700px){
+ .landscape{width:100%;left:0;height:240px}
+ .landscape-caption{font-size:8px}
+ .lake-ripples{right:0;width:31%;bottom:52px;height:40px}
+}

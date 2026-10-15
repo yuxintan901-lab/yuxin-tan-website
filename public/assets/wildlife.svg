@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="leopard" viewBox="0 0 300 140">
+    <g fill="currentColor">
+      <path d="M48 58C68 42 115 41 155 47C178 49 195 45 211 39L222 28L233 29L241 22L246 37C261 37 270 45 268 54L290 60L287 68L266 72C258 88 246 93 230 91L217 78L210 106L219 120L218 126L196 126L189 114L190 81L167 83L159 109L166 122L160 127L142 124L139 105L143 84L102 79L84 106L91 120L86 126L66 126L61 110L72 81L55 83L39 108L45 121L39 126L20 126L18 110L30 89C32 75 34 65 48 58Z"/>
+      <path d="M48 67C25 74 8 59 8 36C8 16 23 8 33 12C48 18 43 31 33 32C24 32 22 24 26 22C14 20 13 40 23 51C31 60 40 54 48 57Z"/>
+    </g>
+    <g fill="none" stroke="#e8e8da" stroke-width="2.5" stroke-linecap="round">
+      <path d="M67 56q-6-5-9 1t8 6M88 53q-5-5-9 0t7 6M109 53q-6-4-9 1t8 5M130 55q-7-4-10 1t9 5M155 58q-6-5-9 1t8 5M180 54q-6-4-9 1t8 6M73 71q-5-4-8 1t7 5M101 69q-5-5-9 0t8 6M125 71q-6-5-9 0t8 6M163 73q-6-5-9 0t8 6M205 57q-5-5-9 1t8 5M218 72q-5-5-9 1t8 5M241 44l2-1M260 60h7M59 90l5 2M152 98l5 2M199 98l5 2"/>
+    </g>
+  </symbol>
+  <symbol id="pangolin" viewBox="0 0 250 130">
+    <path fill="currentColor" d="M69 80C42 86 30 104 6 113C13 97 36 76 47 58C58 32 96 18 126 23C154 26 177 47 183 68L210 75L233 89L231 95L204 96L189 88L182 102L190 109L186 116L168 115L165 100L140 97L129 111L119 117L108 115L111 105L120 89L98 88L85 105L73 108L69 102L78 90Z"/>
+    <g fill="none" stroke="#e8e8da" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m65 48 9 9 8-11 9 10 8-12 10 10 8-11 11 11 8-9M53 61l10 10 9-11 10 12 9-13 11 11 9-12 11 12 9-13 11 12 9-11 10 10M48 77l11 7 10-10 10 10 10-12 10 12 10-11 10 13 11-12 10 10 10-11 10 9 9-8M31 91l9 3 8-9 8 4M76 37l11 9 9-12 11 11 9-11 11 12 8-8M208 85l3 1M169 108l8 2M76 103l7-1"/>
+    </g>
+  </symbol>
+  <symbol id="kingfisher" viewBox="0 0 200 145">
+    <g fill="currentColor"><path d="M39 66 5 70 35 78C48 91 60 97 78 91L105 111L159 140L160 130L132 97C149 86 142 71 130 66L144 33L131 11L120 8L105 42C96 49 86 45 79 47C75 35 65 31 54 36L45 47L39 66Z"/><path d="M80 75C75 99 57 110 24 118L37 122L74 113L97 92Z"/></g>
+    <g fill="none" stroke="#e8e8da" stroke-width="1.6" stroke-linecap="round"><path d="m123 27-16 42M130 33 112 75M133 43l-17 38M62 45l2 0M75 77l14 7M123 104l17 22"/></g>
+  </symbol>
+  <symbol id="swallow" viewBox="0 0 100 65"><path fill="currentColor" d="M46 32C27 29 12 15 4 2C5 23 15 36 36 42L28 64L48 53L62 65L57 44C78 40 90 25 97 5C76 24 68 30 54 31L52 24L48 26Z"/></symbol>
+  <symbol id="fish" viewBox="0 0 150 75"><path fill="currentColor" d="M15 36C42 12 87 10 114 27L142 8L140 35L147 58L116 47C86 70 40 66 15 41L4 39Z"/><path fill="currentColor" d="M52 21 70 3 91 19M54 58l18 14 12-14"/><circle cx="36" cy="32" r="3" fill="#efefe5"/><g fill="none" stroke="#efefe5" stroke-width="1.5"><path d="M48 25q-9 15 0 27M75 37l21-4M76 39l16 7"/></g></symbol>
+  <symbol id="snail" viewBox="0 0 200 150">
+    <!-- Elongate conical shell and broad exposed foot follow the supplied aquatic snail photograph. -->
+    <g fill="currentColor">
+      <path d="M63 22C81 15 106 24 118 43L125 58 130 63 135 76 141 82 147 94 153 99 160 111 166 115 173 126 181 132 191 143C175 141 157 131 142 122L133 117 122 108 113 101 104 91 94 81 80 69C65 57 54 38 63 22Z"/>
+      <path d="M57 21C42 23 30 35 26 48L21 53 24 65C30 77 48 83 67 83L78 74C87 61 86 42 76 31Q67 22 57 21Z"/>
+      <path d="M35 36Q22 33 17 43L18 55 28 59 42 46Z"/>
+    </g>
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M30 40Q18 30 7 27M45 29Q46 17 51 10" stroke-width="2.5"/>
+      <path d="M25 53Q14 58 7 56" stroke-width="2"/>
+    </g>
+    <g fill="none" stroke="#e8e8da" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M58 26Q77 31 79 48Q82 63 70 76Q47 80 33 67" stroke-width="2.7"/>
+      <path d="M94 29Q108 51 88 76M112 45Q123 65 105 91M127 65Q136 83 121 106M141 84Q147 101 136 117M155 102Q160 115 151 126M168 119Q170 128 164 134M179 132l-3 7" stroke-width="2.4"/>
+    </g>
+  </symbol>
+  <symbol id="mayfly" viewBox="0 0 110 130"><g fill="#efefe5" stroke="currentColor" stroke-width="2"><path d="M53 68C32 53 7 12 24 7C42 12 57 47 57 68Z"/><path d="M58 68C65 40 92 9 99 19C102 35 78 62 58 68Z"/><path d="M55 69C37 60 19 57 19 68C28 77 42 74 55 69Z"/></g><g fill="none" stroke="currentColor" stroke-linecap="round"><path d="M56 60v37" stroke-width="4"/><path d="M54 92 25 127M57 95l2 32M60 92l30 31M52 65l-14 13M53 74l-17 9M59 69l15 12M59 77l14 11M51 56 43 45M59 55l7-12M29 19l22 41M86 26 62 58" stroke-width="1.5"/></g><circle cx="56" cy="55" r="4" fill="currentColor"/></symbol>
+  <symbol id="dragonfly" viewBox="0 0 150 105"><g fill="#efefe5" stroke="currentColor" stroke-width="2"><path d="M73 40C39 8 8 16 13 29C27 41 51 43 73 40Z"/><path d="M78 40C106 12 143 15 136 29C127 41 103 43 78 40Z"/><path d="M73 44C28 33 8 53 23 60C44 62 65 50 73 44Z"/><path d="M79 44C112 31 146 51 128 60C107 60 91 52 79 44Z"/></g><path d="M76 28v65" stroke="currentColor" stroke-width="5" stroke-linecap="round"/><circle cx="73" cy="25" r="4" fill="currentColor"/><circle cx="80" cy="25" r="4" fill="currentColor"/><path d="M76 54h6M74 66h7M74 78h7" stroke="#efefe5" stroke-width="1.2"/></symbol>
+  <symbol id="mayfly-nymph" viewBox="0 0 310 280">
+    <!-- Dorsal outline follows the supplied nymph photograph: six thoracic legs, paired abdominal gills and three caudal filaments. -->
+    <g transform="translate(20 44) rotate(-65 100 80)">
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M91 20Q77 5 63 4L48 1M111 21Q130 9 148 20" stroke-width="1.8"/>
+        <path d="M83 47 51 41 37 23 24 19M118 47 146 41 158 22 173 18M81 62 48 67 32 56 19 52M121 62 149 69 168 58 182 54M85 77 60 99 38 99 25 112M117 78 140 98 163 102 177 115" stroke-width="3.4"/>
+        <path d="M24 19 18 17M173 18l6-4M19 52l-6-3M182 54l6-3M25 112l-5 6M177 115l5 6" stroke-width="1.5"/>
+        <path d="M94 151Q83 186 70 222M101 155Q105 192 106 233M108 151Q127 186 147 222" stroke-width="2.8"/>
+      </g>
+      <g fill="currentColor">
+        <path d="M84 18Q100 10 116 18L122 29 116 42 84 42 78 29Z"/>
+        <path d="M83 41Q76 58 83 73L87 85 113 85Q126 66 117 42Z"/>
+        <path d="M86 79Q81 105 89 130L94 153Q101 159 108 153L115 128Q121 102 114 79Z"/>
+        <path d="M86 87Q71 74 60 77L71 89 56 85Q62 97 85 96Z M115 87Q130 74 141 77L130 89 145 85Q139 97 116 96Z"/>
+        <path d="M85 98Q67 85 56 89L69 100 52 97Q61 109 86 106Z M117 98Q135 85 146 89L133 100 150 97Q141 109 116 106Z"/>
+        <path d="M86 109Q68 98 58 102L71 112 56 109Q63 120 88 117Z M116 109Q134 98 144 102L131 112 146 109Q139 120 114 117Z"/>
+        <path d="M88 120Q72 109 63 114L75 123 60 121Q70 130 91 128Z M114 120Q130 109 139 114L127 123 142 121Q132 130 111 128Z"/>
+        <path d="M91 130Q79 121 72 125L80 133 69 131Q78 140 94 137Z M111 130Q123 121 130 125L122 133 133 131Q124 140 108 137Z"/>
+        <path d="M94 141 80 136 86 145 96 147 M108 141 122 136 116 145 106 147"/>
+      </g>
+      <g fill="none" stroke="#e8e8da" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M86 47Q85 67 98 78L100 59M113 47Q117 67 104 79L102 60" stroke-width="1.7"/>
+        <path d="M87 91h27M86 101h29M88 111h25M89 121h23M92 131h17M94 140h14M96 149h10" stroke-width="1.6"/>
+        <path d="M83 92 66 84M83 102 63 95M85 113 67 107M89 124 72 118M94 135 79 130M119 92l17-8M119 102l20-7M117 113l18-6M113 124l17-6M108 135l15-5" stroke-width=".9"/>
+        <path d="M94 151Q83 186 70 222M101 155Q105 192 106 233M108 151Q127 186 147 222" stroke-width="3" stroke-dasharray="1.5 7"/>
+      </g>
+      <ellipse cx="88" cy="27" rx="4" ry="6" fill="#e8e8da"/><ellipse cx="112" cy="27" rx="4" ry="6" fill="#e8e8da"/>
+    </g>
+  </symbol>
+  <symbol id="monkey" viewBox="0 0 180 170">
+    <g fill="currentColor">
+      <path d="M97 49C86 53 76 68 76 88C76 107 83 119 100 124L128 135L148 136L154 144L150 149L116 149L94 139C79 145 60 140 59 128C57 115 70 103 76 99L84 59Z"/>
+      <path d="M114 52Q138 72 127 95L118 112L139 124L148 132L142 137L125 130L105 117Q100 112 105 100L115 82L103 64Z"/>
+      <path d="M92 69Q76 87 65 104L68 120L64 133L58 135L55 120L54 105Q59 84 81 62Z"/>
+      <circle cx="109" cy="31" r="24"/><circle cx="88" cy="31" r="10"/>
+    </g>
+    <path d="M72 119C35 125 13 108 17 79C19 58 32 55 38 67C44 83 34 91 27 86" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"/>
+    <path d="M112 15Q126 16 129 28L138 36L135 43L124 49L113 46Q103 36 108 25Z" fill="#e8e8da"/>
+    <circle cx="121" cy="28" r="2.4" fill="currentColor"/>
+    <path d="M126 40h7M82 31q7-6 10 3M85 86q2 17 14 22M94 130q16-7 29 8M113 85l-4 10" fill="none" stroke="#e8e8da" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M42 153h117" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity=".45"/>
+  </symbol>
+  <symbol id="dragonfly-nymph" viewBox="0 0 220 280">
+    <!-- Dorsal nymph: three pairs of jointed legs, paired wing pads, segmented abdomen and a short anal pyramid. -->
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M97 103 77 94 60 80 68 56 83 29M123 103 144 94 159 81 154 55 150 40" stroke-width="6"/>
+      <path d="M91 121 72 145 49 159 28 135 21 115M129 123 151 139 173 147 192 125 202 114" stroke-width="6.5"/>
+      <path d="M91 149 80 180 66 201 43 194 25 184M129 150 141 179 152 192 175 179 187 170" stroke-width="7"/>
+      <path d="M83 29 79 17 82 9M150 40 164 33 168 24M21 115 15 108 13 99M202 114 210 109 214 100M25 184 16 194 8 197M187 170 203 175 213 170" stroke-width="3"/>
+      <path d="M99 70 91 62 85 60M121 70 131 63 135 57" stroke-width="2.5"/>
+    </g>
+    <g fill="currentColor">
+      <path d="M92 69Q110 61 128 69L137 78Q142 89 130 99L121 105H99L90 99Q78 89 83 78Z"/>
+      <path d="M98 101Q110 96 123 101L135 117 134 150 130 171Q110 182 92 171L86 151 86 123Z"/>
+      <path d="M93 165Q110 159 127 165L135 182 137 199 135 214 131 229 124 245 117 254 110 267 103 254 96 245 89 229 85 214 83 199 85 182Z"/>
+      <path d="M99 244 98 257 106 252M121 244 123 257 114 252"/>
+      <circle cx="60" cy="80" r="4"/><circle cx="159" cy="81" r="4"/>
+      <circle cx="49" cy="159" r="4"/><circle cx="173" cy="147" r="4"/>
+      <circle cx="66" cy="201" r="4.5"/><circle cx="152" cy="192" r="4.5"/>
+    </g>
+    <g fill="none" stroke="#e8e8da" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M88 80Q94 73 101 79M119 79Q126 73 133 80M95 85 107 97H115L126 85M99 71h23M97 102h26" stroke-width="2.2"/>
+      <path d="M103 115Q94 121 95 143L98 164Q102 173 107 165L109 130ZM117 115Q127 122 125 144L122 165Q117 173 113 164L112 130Z" stroke-width="2.7"/>
+      <path d="M110 109v17M94 173Q110 180 128 173M88 186Q110 194 133 186M87 200Q110 208 134 200M88 214Q110 222 132 214M92 228Q111 234 128 228M98 241Q110 247 122 241M104 252l6 9 5-9" stroke-width="2.5"/>
+    </g>
+  </symbol>
+  <symbol id="daphnia" viewBox="0 0 100 130"><path d="M43 19C19 24 13 53 19 77C26 100 45 107 63 90C84 70 76 38 63 27L65 16L55 12Z" fill="#efefe5" stroke="currentColor" stroke-width="3"/><path d="M28 90 13 120M49 24 32 7 13 12M38 14 33 1M44 25 72 9 91 15M77 12l6-10M35 44q-3 22 10 31M39 49l18 4M40 57l20 6M44 67l17 6M48 77l10 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="52" cy="28" r="4" fill="currentColor"/><path d="M65 39q10 15 5 25" fill="none" stroke="currentColor" stroke-width="1"/></symbol>
+  <symbol id="copepod" viewBox="0 0 110 140"><path d="M54 22C30 26 28 55 40 72L47 93H61L70 68C83 48 74 26 54 22Z" fill="currentColor"/><g fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"><path d="M42 28 18 11 2 14M67 27 93 8 107 11M38 53l-19 5M39 67 20 76M67 53l20 5M66 69 86 78M49 93l-2 24-9 15M59 93l4 25 12 14"/></g><g stroke="#efefe5" stroke-width="1.5"><path d="M39 42h32M37 52h34M40 63h29M46 74h17M48 84h13"/></g></symbol>
+  <symbol id="diatoms" viewBox="0 0 120 100"><g fill="#efefe5" stroke="currentColor" stroke-width="2"><ellipse cx="32" cy="49" rx="13" ry="38" transform="rotate(-27 32 49)"/><ellipse cx="78" cy="53" rx="12" ry="34" transform="rotate(26 78 53)"/></g><g fill="none" stroke="currentColor" stroke-width="1.1"><path d="M15 16 49 83M23 27l-10 5M27 35l-12 6M30 43l-11 7M35 51l-12 8M38 59l-12 7M42 67l-11 6M92 25 64 83M83 35l12 5M79 44l12 5M75 53l12 5M71 62l12 5M68 72l10 4"/></g></symbol>
+  <symbol id="algae" viewBox="0 0 120 100"><g fill="#efefe5" stroke="currentColor" stroke-width="2"><circle cx="37" cy="23" r="13"/><circle cx="65" cy="23" r="13"/><circle cx="79" cy="49" r="13"/><circle cx="65" cy="75" r="13"/><circle cx="37" cy="75" r="13"/><circle cx="22" cy="49" r="13"/><circle cx="51" cy="49" r="13"/></g><g fill="currentColor"><circle cx="37" cy="23" r="4"/><circle cx="65" cy="23" r="4"/><circle cx="79" cy="49" r="4"/><circle cx="65" cy="75" r="4"/><circle cx="37" cy="75" r="4"/><circle cx="22" cy="49" r="4"/><circle cx="51" cy="49" r="4"/></g></symbol>
+</svg>

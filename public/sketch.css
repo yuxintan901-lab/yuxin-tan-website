@@ -1,0 +1,120 @@
+/* Monochrome habitat drawings: the homepage's field-sketch edition. */
+.hero{background:#e8e8da;min-height:980px;max-height:1150px}
+.hero:after{opacity:.055}
+.hero-topline{color:#51574b}
+.hero-copy{padding-top:325px;width:min(850px,86%)}
+.hero h1{font-size:clamp(70px,7.6vw,112px);font-weight:650;letter-spacing:-.065em;line-height:1.05}
+.hero h1>span{font-size:1.02em;letter-spacing:-.06em;margin-left:9px}
+.hero-eyebrow{margin-bottom:16px;letter-spacing:.12em}
+.hero-statement{font-size:22px;margin:25px 0 13px}
+.hero-description{font-size:12px;color:#626858}
+.hero-copy .explore-link{margin-top:20px}
+.sketch-stars{position:absolute;top:230px;left:47%;font:21px Georgia,serif;opacity:.5;transform:rotate(12deg)}
+.sketch-stars span{font-size:11px;margin-left:90px}
+.animal{color:#20271f}
+.animal svg{display:block;width:100%;height:auto;overflow:visible}
+.leopard-position{left:13%;top:191px;width:244px;--depth:.6}
+.leopard{animation:sketch-breathe 6s ease-in-out infinite}
+.animal-button{min-height:110px}
+.animal-button:hover{filter:none}
+.animal-spark{right:15px;top:0;color:#20271f}
+.field-label{font:9px/1.5 "Courier New",monospace;letter-spacing:.09em;font-style:normal;opacity:.66}
+.leopard-label{left:64px;bottom:-18px;transform:none}
+.bird-position{right:16%;top:155px;width:143px;--depth:1.1}
+.bird-label{bottom:-15px;right:4px;transform:none}
+.bird-flight{animation:sketch-flight 12s ease-in-out infinite}
+.pangolin-position{right:6.5%;top:335px;width:188px;--depth:.4}
+.pangolin{animation:pangolin-walk 11s ease-in-out infinite}
+.pangolin-label{left:49px;bottom:-14px}
+.swallow-position{top:190px;left:39%;width:46px;opacity:.72;animation:swallow-flight 15s ease-in-out infinite}
+.monkey-position{left:10%;top:345px;width:129px;--depth:.5}
+.monkey{animation:monkey-sway 8s ease-in-out infinite;transform-origin:50% 90%}
+.monkey-label{left:27px;bottom:-10px}
+.landscape{height:425px;bottom:10px;left:0;right:0;width:100%;overflow:visible}
+.landscape-sketch{position:absolute;inset:0;width:100%;height:100%;object-fit:fill}
+.lake-ripples{right:1%;bottom:78px;width:19%;height:44px;stroke:#7c8571;stroke-width:.8;opacity:.4}
+.waterlife{position:absolute;color:#242b23;display:flex;flex-direction:column;align-items:center;z-index:3}
+.waterlife svg{display:block;width:100%;height:auto;overflow:visible}
+.organism-label{font:8px/1.5 "Courier New",monospace;letter-spacing:.035em;color:#59614f;white-space:nowrap;margin-top:3px}
+.fish-large{left:61%;bottom:45px;width:91px;animation:fish-swim 13s ease-in-out infinite}
+.fish-small{left:79%;bottom:74px;width:56px;animation:fish-swim 10s ease-in-out infinite reverse}
+.fish-small svg{transform:scaleX(-1)}
+.snail-life{left:24%;bottom:37px;width:51px;animation:snail-crawl 20s ease-in-out infinite}
+.mayfly-life{left:39%;bottom:22px;width:81px}
+.nymph-life{left:52%;bottom:26px;width:47px}
+.adult-mayfly{left:34%;bottom:192px;width:44px;animation:insect-drift 12s ease-in-out infinite}
+.adult-dragonfly{left:64%;bottom:214px;width:82px;animation:insect-drift 9s ease-in-out infinite reverse}
+.adult-dragonfly svg{animation:sketch-wingbeat 1.1s ease-in-out infinite alternate}
+.adult-mayfly svg{animation:sketch-wingbeat 1.8s ease-in-out infinite alternate}
+.micro-world{position:absolute;right:5.5%;bottom:182px;width:205px;z-index:4;color:#252c23}
+.micro-circle{height:185px;border:1px solid #68715c;border-radius:50%;background:#eaeadd;position:relative;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;padding:23px 29px;gap:5px 18px}
+.micro-circle:after{content:"";position:absolute;left:27px;bottom:-51px;width:1px;height:64px;background:repeating-linear-gradient(#64715b 0 3px,transparent 3px 7px);transform:rotate(27deg);transform-origin:top}
+.micro-organism{display:flex;flex-direction:column;align-items:center;justify-content:center}
+.micro-organism svg{width:37px;height:44px;animation:plankton-drift 9s ease-in-out infinite}
+.micro-organism:nth-child(2) svg{animation-delay:-4s}
+.micro-organism:nth-child(3) svg{width:45px;height:37px;animation-delay:-7s}
+.micro-organism:nth-child(4) svg{width:45px;height:36px;animation-delay:-2s}
+.micro-organism span{font:7px/1.4 "Courier New",monospace;color:#626a57;margin-top:1px;white-space:nowrap}
+.micro-caption{text-align:center;font-size:9px;line-height:1.7;margin:9px 0 0;color:#535f4c}
+.micro-caption>span:last-child{font:7px "Courier New",monospace;letter-spacing:.06em;display:block;margin-top:3px}
+.habitat-caption{position:absolute;bottom:19px;left:46px;right:46px;display:flex;justify-content:space-between;z-index:7;font:8px "Courier New",monospace;letter-spacing:.09em;color:#5c6653}
+.habitat-caption .caption-center{font-size:8px;letter-spacing:.1em}
+.animal-message{top:162px;background:#f2f1e6}
+@keyframes sketch-breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes sketch-flight{0%,100%{transform:translate(0,0) rotate(-3deg)}40%{transform:translate(-16px,-12px) rotate(4deg)}75%{transform:translate(5px,6px) rotate(-1deg)}}
+@keyframes pangolin-walk{0%,100%{transform:translateX(0) rotate(-1deg)}50%{transform:translateX(-10px) rotate(1deg)}}
+@keyframes swallow-flight{0%,100%{transform:translate(0,0) rotate(-5deg)}50%{transform:translate(25px,-10px) rotate(8deg)}}
+@keyframes fish-swim{0%,100%{transform:translateX(0) rotate(-2deg)}50%{transform:translateX(-25px) rotate(2deg)}}
+@keyframes snail-crawl{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+@keyframes insect-drift{0%,100%{transform:translate(0,0) rotate(-4deg)}50%{transform:translate(12px,-9px) rotate(4deg)}}
+@keyframes sketch-wingbeat{to{transform:scaleX(.91) rotate(3deg)}}
+@keyframes plankton-drift{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-3px) rotate(4deg)}}
+@keyframes monkey-sway{0%,100%{transform:rotate(-1deg)}50%{transform:rotate(1.5deg)}}
+@media(max-width:1100px){.monkey-position{left:4%;top:328px;width:94px}.monkey-label{left:12px;font-size:8px}}
+@media(min-width:1700px){.leopard-position{left:17%;width:260px}.bird-position{right:20%}.pangolin-position{right:9%;width:200px}.hero-copy{padding-top:340px}.landscape{height:445px}}
+@media(max-height:850px) and (min-width:1101px){.hero{min-height:850px}.hero-copy{padding-top:275px}.hero h1{font-size:96px}.hero-statement{font-size:20px;margin-top:20px}.leopard-position{top:173px;width:217px}.bird-position{top:150px;width:116px}.pangolin-position{top:292px;width:161px}.landscape{height:350px}.micro-world{width:172px;bottom:154px}.micro-circle{height:159px;padding:19px 23px;gap:4px 12px}.micro-organism svg{height:36px;width:31px}}
+@media(max-width:1100px){.hero-copy{padding-top:332px}.leopard-position{left:8%;width:216px;top:193px}.bird-position{right:11%;top:154px;width:137px}.pangolin-position{right:4%;width:145px;top:277px}.hero h1{font-size:94px}.landscape{height:395px}.micro-world{right:3%;width:177px;bottom:170px}.micro-circle{height:164px;padding:20px 25px;gap:3px 10px}.hero-statement{font-size:20px}.micro-caption{font-size:8px}}
+@media(max-width:700px){
+ .hero{min-height:980px;height:100svh;max-height:1100px}
+ .hero-copy{padding-top:307px;width:94%}
+ .hero h1{font-size:clamp(43px,11.4vw,70px);font-weight:650;letter-spacing:-.06em}
+ .hero h1>span{margin-left:3px}
+ .hero-eyebrow{font-size:9px;letter-spacing:.08em;margin-bottom:16px}
+ .hero-statement{font-size:18px;line-height:1.45;margin:22px 0 14px}
+ .hero-description{font-size:11px}
+ .hero-copy .explore-link{margin-top:19px;font-size:10px}
+ .leopard-position{left:5%;top:161px;width:166px}
+ .animal-button{min-height:85px}
+ .leopard-label{left:40px;bottom:-4px;font-size:8px}
+ .bird-position{right:7%;top:136px;width:100px}
+ .bird-label{font-size:8px;right:4px;bottom:-14px}
+ .pangolin-position{right:6%;top:228px;width:120px}
+ .pangolin-label{font-size:7px;left:27px;bottom:-12px}
+ .swallow-position{left:48%;top:150px;width:30px}
+ .monkey-position{left:4%;top:245px;width:65px}
+ .monkey-label{left:0;bottom:-9px;font-size:7px}
+ .leopard-label{left:78px}
+ .sketch-stars{top:265px;left:27%;font-size:15px}
+ .sketch-stars span{display:none}
+ .landscape{width:100%;left:0;bottom:23px;height:306px}
+ .lake-ripples{right:0;bottom:68px;width:22%;height:24px}
+ .fish-large{left:72%;bottom:35px;width:48px}
+ .fish-small{left:86%;bottom:62px;width:27px}
+ .snail-life{left:22%;bottom:32px;width:34px}
+ .mayfly-life{left:36%;bottom:23px;width:52px}
+ .nymph-life{left:57%;bottom:29px;width:31px}
+ .adult-mayfly{left:33%;bottom:148px;width:32px}
+ .adult-dragonfly{left:40%;bottom:205px;width:55px}
+ .organism-label{font-size:7px;letter-spacing:0;margin-top:0}
+ .micro-world{right:5%;bottom:195px;width:151px}
+ .micro-circle{height:137px;padding:15px 20px;gap:3px 9px}
+ .micro-organism svg{width:27px;height:32px}
+ .micro-organism:nth-child(3) svg,.micro-organism:nth-child(4) svg{width:33px;height:27px}
+ .micro-organism span{font-size:6px}
+ .micro-caption{font-size:8px;margin-top:6px}
+ .micro-caption>span:last-child{font-size:6px;letter-spacing:0}
+ .micro-circle:after{bottom:-40px;height:48px}
+ .habitat-caption{left:22px;right:22px;bottom:12px;font-size:7px;letter-spacing:0}
+ .habitat-caption .caption-center{display:none}
+ .animal-message{top:111px;font-size:9px}
+}

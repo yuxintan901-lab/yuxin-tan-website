@@ -1,0 +1,145 @@
+/* Academic profile layout, retaining the existing olive and paper palette. */
+.hero.profile-hero{height:auto;min-height:1040px;max-height:none;padding-bottom:350px;background:#e8e8da}
+.profile-layout{position:relative;z-index:5;display:grid;grid-template-columns:286px minmax(0,1fr);gap:26px;align-items:start;width:calc(100% - 92px);max-width:1360px;margin:0 auto;padding-top:151px}
+.profile-card,.intro-card,.credentials-card,.publications-card{background:#efefe3;border:1px solid rgba(58,69,48,.09);border-radius:18px;box-shadow:0 6px 24px rgba(37,53,30,.045)}
+.profile-card{padding:24px 24px 22px;text-align:center}
+.profile-photo{aspect-ratio:4 / 4.5;overflow:hidden;border-radius:10px;background:#d6d9c7}
+.profile-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.hero .profile-name{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-size:29px;line-height:1.35;font-weight:600;letter-spacing:.09em;white-space:normal;margin:19px 0 2px}
+.profile-latin{font:italic 19px/1.4 Georgia,"Times New Roman",serif;letter-spacing:.01em;margin:0 0 16px;color:#4d5c46}
+.profile-role{font-size:12px;line-height:1.7;margin:0 0 9px}
+.profile-affiliation{font-size:12px;line-height:1.8;color:#626858;margin:0 0 13px}
+.profile-email{font:12px/1.8 "Courier New",monospace;color:#475d45;overflow-wrap:anywhere;border-bottom:1px solid #a8b19b;padding-bottom:3px}
+.profile-links{margin-top:25px;padding-top:17px;border-top:1px solid rgba(58,69,48,.16);display:flex;justify-content:center;gap:26px;font-size:10px}
+.profile-links a{display:flex;align-items:center;gap:10px}
+.profile-links a:hover{color:#698058}
+.profile-main{display:grid;gap:22px;min-width:0}
+.intro-card{padding:29px 32px 28px;scroll-margin-top:25px}
+.profile-card-heading{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:19px}
+.profile-card-heading h2{font-size:27px;font-weight:500;line-height:1.4;letter-spacing:-.02em}
+.card-note{font:8px/1.5 "Courier New",monospace;letter-spacing:.1em;color:#7b826f;text-align:right}
+.intro-copy p{font-size:14px;line-height:1.95;color:#4c5845;margin:0 0 16px}
+.intro-copy p:last-child{margin-bottom:0}
+.profile-interests{display:flex;flex-wrap:wrap;gap:8px;margin-top:21px}
+.profile-interests>span{font-size:9px;line-height:1.4;letter-spacing:.04em;border:1px solid #bcc5ac;border-radius:30px;padding:6px 12px;color:#5b6b4e}
+.credentials-card{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);gap:30px;padding:27px 32px 30px}
+.credentials-card h2{font-size:18px;font-weight:500;letter-spacing:-.02em;line-height:1.5;margin:0 0 22px}
+.education-item{display:flex;gap:12px;position:relative;margin-bottom:23px}
+.education-item:last-child{margin-bottom:0}
+.education-mark{width:25px;height:25px;flex:0 0 25px;border:1px solid #a9b39a;border-radius:50%;font:9px/24px "Courier New",monospace;text-align:center;color:#627457;margin-top:2px;background:#e5e8d8}
+.education-body{min-width:0}
+.education-body h3{font-size:15px;font-weight:500;line-height:1.5;margin:0 0 3px;letter-spacing:0}
+.education-school{font-size:11px;line-height:1.65;color:#747c6a;margin:0 0 6px}
+.education-degree{font-size:12px;line-height:1.75;margin:0 0 5px}
+.education-date{font:10px/1.7 "Courier New",monospace;color:#637156;margin:0 0 6px}
+.education-extra{font-size:10px;line-height:1.75;margin:0;color:#79806f}
+.education-extra>span:last-child{display:block}
+.honors-column{border-left:1px solid rgba(58,69,48,.13);padding-left:28px;min-width:0}
+.honors-list{list-style:none;margin:0;padding:0}
+.honors-list li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;position:relative;padding-left:12px;margin-bottom:22px}
+.honors-list li:last-child{margin-bottom:0}
+.honors-list li:before{content:"";width:4px;height:4px;background:#7b8e68;border-radius:50%;position:absolute;left:0;top:8px}
+.honors-list li p{font-size:12px;line-height:1.7;margin:0 0 5px}
+.honor-context{font-size:10px;line-height:1.7;color:#7b826f}
+.honor-year{font:9px/1.85 "Courier New",monospace;white-space:nowrap;text-align:right;color:#6b795c;padding-top:2px}
+.publications-card{padding:28px 32px 30px;min-width:0}
+.publications-card .profile-card-heading{margin-bottom:24px}
+.publications-card h2{font-size:21px}
+.publications-list{list-style:none;margin:0;padding:0}
+.publication-item{display:grid;grid-template-columns:24px minmax(0,1fr);gap:13px;padding:23px 0;border-top:1px solid rgba(58,69,48,.13)}
+.publication-item:first-child{border-top:0;padding-top:0}
+.publication-item:last-child{padding-bottom:0}
+.publication-number{font:10px/1.8 "Courier New",monospace;color:#869177;padding-top:1px}
+.publication-authors{font-size:11px;line-height:1.85;color:#7b826f;margin:0 0 7px}
+.publication-authors strong{font-weight:600;color:#3b5134}
+.publication-body h3{font-size:14px;font-weight:500;line-height:1.85;letter-spacing:0;margin:0 0 11px;overflow-wrap:anywhere}
+.publication-meta{display:flex;align-items:baseline;flex-wrap:wrap;gap:7px 12px;font-size:11px;line-height:1.7;color:#5f6c53}
+.publication-meta cite{font-style:italic}
+.publication-volume,.publication-note{font-size:10px;color:#7b826f}
+.publication-status{display:inline-block;padding:2px 8px;border:1px solid #c5cbb7;border-radius:4px;font-size:9px;line-height:1.6;color:#68745b;background:#e8eadf}
+.status-accepted,.status-published{background:#dee5d2;border-color:#b9c7a9;color:#4d6741}
+.publication-doi{display:inline-flex;align-items:center;gap:9px;max-width:100%;font:10px/1.8 "Courier New",monospace;color:#506747;margin-top:9px;overflow-wrap:anywhere;text-decoration:underline;text-decoration-color:#b3bda6;text-underline-offset:4px}
+.publication-doi:hover{color:#2f4927;text-decoration-color:currentColor}
+.publication-doi:focus-visible{outline:2px solid #627457;outline-offset:5px;border-radius:2px}
+.study-detail .study-block{margin-bottom:22px}
+.study-detail .study-block h4{font-size:11px;line-height:1.6;font-weight:600;letter-spacing:.03em;color:#475d45;margin:0 0 8px}
+.study-detail .study-block p{margin-bottom:0}
+.study-detail .study-block p+p{margin-top:12px}
+.study-figure{margin:0 0 26px}
+.study-figure-link{display:block;overflow:hidden;border:1px solid #c6ccba;border-radius:8px;background:#fff;cursor:zoom-in}
+.study-figure img{display:block;width:100%;height:auto}
+.study-figure figcaption{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 20px;font-size:10px;line-height:1.8;color:#68765d;margin-top:10px}
+.study-figure-hint{font-size:9px;color:#7b826f}
+.study-figure-link:hover{border-color:#7b8e68}
+.study-figure-link:focus-visible{outline:2px solid #627457;outline-offset:5px}
+.profile-hero .landscape{height:310px;bottom:14px;width:100%;left:0}
+.profile-hero .fish-large{bottom:25px;width:76px}
+.profile-hero .mayfly-life{left:56%;top:78.7%;bottom:auto;width:40px;translate:-50% 0}
+.profile-hero .snail-life{left:46%;top:84%;bottom:auto;width:38px;translate:-50% 0}
+.profile-hero .nymph-life{left:70.5%;top:77%;bottom:auto;width:36px;translate:-50% 0}
+.profile-hero :is(.snail-life,.mayfly-life,.nymph-life) .organism-label{font-size:7px;line-height:1.35;margin-top:1px}
+.profile-hero .adult-mayfly{bottom:168px;width:36px}
+.profile-hero .adult-dragonfly{bottom:188px;width:68px}
+.profile-hero .micro-world{bottom:119px;width:162px}
+.profile-hero .micro-circle{height:147px;padding:16px 22px;gap:4px 10px}
+.profile-hero .micro-organism svg{width:28px;height:34px}
+.profile-hero .micro-organism:nth-child(3) svg,.profile-hero .micro-organism:nth-child(4) svg{width:35px;height:29px}
+.profile-hero .micro-caption{font-size:8px}
+.profile-hero .micro-caption>span:last-child{font-size:6px}
+.profile-hero .micro-organism span{font-size:6px}
+.profile-hero .habitat-caption{bottom:16px}
+@media(min-width:1700px){.profile-layout{grid-template-columns:300px minmax(0,1fr);padding-top:160px;gap:30px}.intro-card{padding:35px 38px}.intro-copy p{font-size:15px}.credentials-card{padding:32px 38px}.profile-card{padding:25px}.profile-hero .landscape{height:330px}}
+@media(max-width:1100px){.profile-layout{width:calc(100% - 60px);grid-template-columns:238px minmax(0,1fr);gap:20px}.profile-card{padding:19px}.intro-card{padding:25px}.intro-copy p{font-size:13px}.card-note{display:none}.credentials-card{padding:25px;gap:20px}.honors-column{padding-left:18px}.credentials-card h2{margin-bottom:18px}.honors-list li{margin-bottom:15px}.hero.profile-hero{padding-bottom:345px}.profile-hero .micro-world{right:4%;bottom:121px}}
+@media(max-width:700px){
+ .publications-card{padding:24px 22px;border-radius:16px}
+ .publications-card h2{font-size:20px}
+ .publications-card .profile-card-heading{margin-bottom:20px}
+ .publication-item{grid-template-columns:18px minmax(0,1fr);gap:9px;padding:21px 0}
+ .publication-authors{font-size:10px}
+ .publication-body h3{font-size:12px;line-height:1.9}
+ .publication-meta{font-size:10px;gap:7px 9px}
+ .publication-doi{font-size:9px}
+ .hero.profile-hero{min-height:0;max-height:none;height:auto;padding-bottom:338px}
+ .profile-layout{width:calc(100% - 40px);padding-top:122px;grid-template-columns:minmax(0,1fr);gap:20px}
+ .profile-card{display:grid;grid-template-columns:116px minmax(0,1fr);gap:17px 18px;text-align:left;padding:20px;border-radius:16px;align-items:start}
+ .profile-photo{aspect-ratio:3 / 4;max-height:176px}
+ .hero .profile-name{font-size:25px;line-height:1.35;margin:0 0 1px;letter-spacing:.05em}
+ .profile-latin{font-size:17px;margin:0 0 10px}
+ .profile-role{font-size:10px;line-height:1.7;margin-bottom:7px}
+ .profile-affiliation{font-size:10px;line-height:1.75;margin-bottom:9px}
+ .profile-email{font-size:9px;line-height:1.8}
+ .profile-links{grid-column:1 / -1;justify-content:flex-start;gap:30px;margin-top:0;padding-top:14px;font-size:10px}
+ .profile-main{gap:20px}
+ .intro-card{padding:23px 22px;border-radius:16px}
+ .profile-card-heading{margin-bottom:15px}
+ .profile-card-heading h2{font-size:23px}
+ .intro-copy p{font-size:12px;line-height:1.95;margin-bottom:16px}
+ .profile-interests{margin-top:18px;gap:7px}
+ .profile-interests>span{font-size:8px;padding:5px 10px}
+ .credentials-card{padding:24px 16px;gap:14px;border-radius:16px}
+ .credentials-card h2{font-size:16px;margin-bottom:19px}
+ .education-item{gap:8px}
+ .education-mark{width:20px;height:20px;flex-basis:20px;line-height:19px;font-size:8px}
+ .education-body h3{font-size:14px}
+ .education-degree{font-size:11px}
+ .education-school{font-size:10px}
+ .education-date{font-size:9px}
+ .education-extra{font-size:9px}
+ .honors-column{padding-left:14px}
+ .honors-list li{grid-template-columns:minmax(0,1fr);gap:3px}
+ .honors-list li p{font-size:11px}
+ .honor-context{font-size:9px}
+ .honor-year{font-size:8px;text-align:left}
+ .profile-hero .landscape{height:286px;bottom:23px}
+ .profile-hero .fish-large{bottom:32px;width:48px}
+ .profile-hero .mayfly-life{left:52%;top:81.5%;width:28px}
+ .profile-hero .snail-life{left:43%;top:86%;width:26px}
+ .profile-hero .nymph-life{left:61%;top:78.5%;width:26px}
+ .profile-hero .adult-mayfly{bottom:135px;width:30px}
+ .profile-hero .adult-dragonfly{bottom:185px;width:51px}
+ .profile-hero .micro-world{width:142px;right:5%;bottom:157px}
+ .profile-hero .micro-circle{height:129px;padding:14px 18px;gap:3px 9px}
+ .profile-hero .micro-organism svg{width:26px;height:31px}
+ .profile-hero .micro-organism:nth-child(3) svg,.profile-hero .micro-organism:nth-child(4) svg{width:30px;height:26px}
+ .profile-hero .habitat-caption{bottom:12px}
+}
