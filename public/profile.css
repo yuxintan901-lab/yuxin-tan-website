@@ -196,3 +196,20 @@ nav a{font-size:14px}
  nav a,.language-toggle,.motion-toggle{font-size:12px}
  .site-footer>span{font-size:11px}
 }
+
+/* Make the native research disclosures easy to discover in either language. */
+.research-help{font-size:14px;line-height:1.8;color:#52634a;margin:0 0 22px}
+.research-item summary{grid-template-columns:55px minmax(0,1fr) 180px 104px}
+.project-main{min-width:0}
+.project-toggle{display:inline-flex;align-items:center;justify-content:center;justify-self:end;gap:6px;min-height:32px;min-width:104px;padding:5px 10px;border:1px solid #9ba98c;border-radius:5px;background:#e0e5d4;color:#33462e;font-size:12px;line-height:1.4;font-weight:500;white-space:nowrap;transition:background .2s,border-color .2s}
+.project-toggle .project-expand{font-size:17px;line-height:1;width:12px;text-align:center;flex-shrink:0}
+.project-toggle-close{display:none}
+.research-item[open] .project-toggle-open{display:none}
+.research-item[open] .project-toggle-close{display:inline}
+.research-item summary:hover .project-toggle,.research-item summary:focus-visible .project-toggle{background:#d1dbc3;border-color:#718564}
+@media(max-width:1100px){.research-item summary{grid-template-columns:45px minmax(0,1fr) 104px}}
+@media(max-width:700px){
+ .research-help{margin-bottom:18px}
+ .research-item summary{grid-template-columns:28px minmax(0,1fr);gap:12px 13px}
+ .project-toggle{grid-column:2;justify-self:start}
+}
